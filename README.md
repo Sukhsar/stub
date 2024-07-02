@@ -120,7 +120,6 @@ public class ParentTest {
         aFakeAccount.Name = 'Sukhendu Sarkar';
         
         Parent parent = new Parent();
-        // Stub Child.createAccount();
         parent.child = new Child(aFakeAccount);
         
         System.Test.startTest();
@@ -145,4 +144,4 @@ public class ParentTest {
 }
 ```
 
-## Concolussion: There is a reason why the siliver bullet of object oriented programming is so powerfull.
+## Concolussion: There is a reason why the silver bullet of object oriented programming is so powerfull.
